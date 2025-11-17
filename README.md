@@ -131,9 +131,9 @@ Lab5_Docker/
 │   ├── main.py              # Flask app
 │   ├── model_training.py    # Wine dataset model training
 │   ├── templates/
-│   │     └── predict.html
-│   └── statics/
-│         └── (images, css if any)
+│       └── predict.html
+│── statics/
+│      |── (images)
 │
 └── model/
       └── wine_model.pkl     # Created automatically during Docker build
